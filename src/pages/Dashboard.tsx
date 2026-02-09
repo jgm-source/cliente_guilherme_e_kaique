@@ -245,14 +245,12 @@ export default function Dashboard() {
             value={counts.leads}
             description={getDateLabel()}
             icon={Users}
-            trend={0}
           />
           <MetricCard
             title="Purchase Events"
             value={counts.conversions}
             description={getDateLabel()}
             icon={ShoppingCart}
-            trend={0}
           />
         </div>
 
